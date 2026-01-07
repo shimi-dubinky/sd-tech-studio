@@ -7,13 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: "#030712",
-        primary: "#6366f1",
-        secondary: "#a855f7",
+        teal: {
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#14b8a6',
+          600: '#0d9488',
+          900: '#134e4a',
+        },
+        electricBlue: {
+          400: '#22d3ee',
+          500: '#06b6d4',
+          600: '#0891b2',
+        },
+        fieryOrange: {
+          500: '#f97316',
+          600: '#ea580c',
+        }
       },
-      animation: {
-        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-      }
     },
   },
   plugins: [],
