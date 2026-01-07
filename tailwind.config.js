@@ -7,21 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        teal: { 400: '#2dd4bf', 500: '#14b8a6', 600: '#0d9488', 900: '#134e4a' },
-        electricBlue: { 400: '#22d3ee', 500: '#06b6d4', 600: '#0891b2' },
+        teal: { 300: '#5eead4', 400: '#2dd4bf', 500: '#14b8a6', 600: '#0d9488', 900: '#134e4a' },
+        electricBlue: { 300: '#7dd3fc', 400: '#22d3ee', 500: '#06b6d4', 600: '#0891b2' },
         fieryOrange: { 500: '#f97316', 600: '#ea580c' }
       },
       animation: {
-        'blob': 'blob 7s infinite',
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'blob': 'blob 12s infinite alternate', // איטי יותר ויותר "נושם"
+        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       keyframes: {
         blob: {
-          '0%': { transform: 'translate(0px, 0px) scale(1)' },
-          '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
-          '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
-          '100%': { transform: 'translate(0px, 0px) scale(1)' },
+          '0%': { transform: 'translate(0px, 0px) scale(1)', opacity: 0.2 },
+          '50%': { transform: 'translate(20px, -30px) scale(1.1)', opacity: 0.4 },
+          '100%': { transform: 'translate(-20px, 20px) scale(0.9)', opacity: 0.2 },
         }
+      },
+      // התיקון הקריטי: הילת ניאון במקום צל שחור
+      dropShadow: {
+        'neon-glow': '0 0 25px rgba(45, 212, 191, 0.5)', // Teal glow
       }
     },
   },
