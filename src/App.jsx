@@ -31,7 +31,7 @@ export default function App() {
 
   const services = [
     { 
-      icon: Code2, title: "Web Engineering", 
+      icon: Code2, title: "הנדסת אתרים", 
       text: "פיתוח מערכות High-End מבוססי React בסטנדרט הנדסי מלא.",
       fullDescription: "אנחנו בונים תשתית דיגיטלית חזקה מבוססת SPA המבטיחה מהירות טעינה אפסית וארכיטקטורה המאפשרת גדילה עסקית עתידית.",
       examples: [
@@ -50,7 +50,7 @@ export default function App() {
       ]
     },
     { 
-      icon: BrainCircuit, title: "AI Solutions", 
+      icon: BrainCircuit, title: "פתרונות AI", 
       text: "הטמעת שכבות אינטליגנציה במערכות העסק לניתוח וקבלת החלטות.",
       fullDescription: "שימוש בטכנולוגיות LLM מתקדמות כדי להפוך את המידע העסקי שלך לכלי עבודה חכם שמבין הקשר ומנתח במקומך.",
       examples: [
