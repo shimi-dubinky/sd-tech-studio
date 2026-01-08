@@ -41,6 +41,23 @@ export default function StoryPage() {
           </span>
         </h1>
 
+        <div className="flex flex-wrap justify-center gap-x-5 gap-y-3 max-w-[320px] mx-auto mb-10 text-zinc-100 text-sm font-semibold tracking-wide leading-relaxed">
+          <div className="flex items-center gap-2 whitespace-nowrap">
+            <div className="w-1.5 h-1.5 rounded-full bg-teal-400 shadow-[0_0_10px_rgba(45,212,191,0.8)]"></div>
+            <span>פיתוח אתרים <span className="text-teal-300 font-black">High-End</span></span>
+          </div>
+          
+          <div className="flex items-center gap-2 whitespace-nowrap">
+            <div className="w-1.5 h-1.5 rounded-full bg-teal-400 shadow-[0_0_10px_rgba(45,212,191,0.8)]"></div>
+            <span>אוטומציות עסקיות</span>
+          </div>
+
+          <div className="flex items-center gap-2 whitespace-nowrap">
+            <div className="w-1.5 h-1.5 rounded-full bg-teal-400 shadow-[0_0_10px_rgba(45,212,191,0.8)]"></div>
+            <span>מערכות מותאמות אישית</span>
+          </div>
+        </div>
+
         {/* טקסט משני מניע לפעולה */}
         <p className="text-zinc-300 text-xl max-w-[300px] mx-auto mb-12 font-light leading-relaxed">
        הגדילו רווחים עם פתרונות דיגיטליים מתוחכמים ויוקרתיים.

@@ -138,7 +138,7 @@ export default function App() {
                 <div className="inline-flex p-4 bg-teal-500/10 rounded-2xl mb-8 border border-teal-500/20"><s.icon className="text-electricBlue-400" size={32} /></div>
                 <h3 className="text-2xl font-black mb-4 text-white tracking-tight">{s.title}</h3>
                 <p className="text-zinc-400 mb-8 font-light text-sm leading-relaxed">{s.text}</p>
-                <div className="flex items-center gap-2 text-electricBlue-400 font-bold text-[10px] tracking-widest uppercase">חקור את המפרט <ArrowLeft size={16} /></div>
+                <div className="flex items-center gap-2 text-electricBlue-400 font-bold text-[10px] tracking-widest uppercase">קרא עוד<ArrowLeft size={16} /></div>
               </div>
             </Tilt>
           ))}
