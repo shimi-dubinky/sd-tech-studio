@@ -62,15 +62,15 @@ export default function App() {
 
   const products = [
     {
-      title: "Launch", price: "3,500", oldPrice: "4,800", gradient: "from-teal-900/40 to-teal-600/10",
+      title: "חבילת התנעה", price: "3,500", oldPrice: "4,800", gradient: "from-teal-900/40 to-teal-600/10",
       features: ["פיתוח React מהיר", "עיצוב פרימיום", "חיבור וואטסאפ"], recommended: false
     },
     {
-      title: "Growth", price: "7,800", oldPrice: "9,500", gradient: "from-teal-600/30 to-electricBlue-600/30",
+      title: "מנוע צמיחה", price: "7,800", oldPrice: "9,500", gradient: "from-teal-600/30 to-electricBlue-600/30",
       features: ["עיצוב Custom UI", "אסטרטגיה טכנולוגית", "SEO טכני מתקדם"], recommended: true
     },
     {
-      title: "Enterprise", price: "16,000", oldPrice: "22,000", gradient: "from-electricBlue-900/40 to-teal-600/10",
+      title: "Eפתרון הנדסי מלא", price: "16,000", oldPrice: "22,000", gradient: "from-electricBlue-900/40 to-teal-600/10",
       features: ["Full-Stack App", "פתרונות AI מותאמים", "ניהול MongoDB"], recommended: false
     }
   ];
