@@ -98,7 +98,7 @@ export default function App() {
       <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-zinc-950/70 border-b border-teal-500/10 py-5 px-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="text-2xl font-black tracking-tighter cursor-default">
-            <span className="bg-gradient-to-r from-teal-400 to-electricBlue-400 bg-clip-text text-transparent">SD Tech</span>
+            <span className="bg-gradient-to-r from-teal-400 to-teal-200 bg-clip-text text-transparent">SD Tech</span>
           </div>
           <a href={baseWhatsapp} target="_blank" rel="noopener noreferrer" 
              className="bg-white text-black px-6 py-2 rounded-full text-sm font-bold shadow-lg hover:bg-teal-50 transition-all">
