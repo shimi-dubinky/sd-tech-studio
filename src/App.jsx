@@ -70,7 +70,7 @@ export default function App() {
       features: ["עיצוב Custom UI", "אסטרטגיה טכנולוגית", "SEO טכני מתקדם"], recommended: true
     },
     {
-      title: "Eפתרון הנדסי מלא", price: "16,000", oldPrice: "22,000", gradient: "from-electricBlue-900/40 to-teal-600/10",
+      title: "פתרון הנדסי מלא", price: "16,000", oldPrice: "22,000", gradient: "from-electricBlue-900/40 to-teal-600/10",
       features: ["Full-Stack App", "פתרונות AI מותאמים", "ניהול MongoDB"], recommended: false
     }
   ];
